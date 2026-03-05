@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Become a Member | Professional Male to Female Body Massage in Mumbai for working females</title>
+    <meta name="description" content="Apply to join the elite collective of therapists providing male to female body massage in Mumbai. High-end opportunities for professional wellness specialists.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" type="image/png" sizes="32x32" href="./image/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./image/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-deep: #0f0412;
+            --royal-purple: #23092e;
+            --champagne: #f3e5ab;
+            --dusty-rose: #a67c8e;
+            --text-silver: #e0e0e0;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-silver);
+            background-image: linear-gradient(rgba(15,4,18,0.95), rgba(15,4,18,0.95)), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            background: rgba(15, 4, 18, 0.95);
+            border-bottom: 1px solid rgba(243, 229, 171, 0.2);
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 9999;
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            color: var(--champagne);
+            font-size: 1.5rem;
+            text-decoration: none;
+            letter-spacing: 2px;
+        }
+
+        .nav-links { display: flex; gap: 30px; align-items: center; }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-silver);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+        .nav-links a:hover { color: var(--champagne); }
+
+        /* FORM STYLING */
+        .page-header {
+            text-align: center;
+            padding: 150px 10% 40px;
+        }
+
+        .page-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: var(--champagne);
+            margin-bottom: 10px;
+        }
+
+        .application-form {
+            max-width: 900px;
+            margin: 0 auto 100px;
+            background: rgba(35, 9, 46, 0.7);
+            padding: 50px;
+            border: 1px solid rgba(243, 229, 171, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .section-title {
+            grid-column: 1 / span 2;
+            border-bottom: 1px solid var(--champagne);
+            padding-bottom: 10px;
+            margin-top: 20px;
+            color: var(--champagne);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+        }
+
+        .form-group { display: flex; flex-direction: column; }
+        .full-width { grid-column: 1 / span 2; }
+
+        label { font-size: 0.75rem; color: var(--dusty-rose); margin-bottom: 8px; text-transform: uppercase; }
+        
+        input, select, textarea {
+            padding: 12px;
+            background: rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            font-family: 'Poppins';
+        }
+
+        input:focus, textarea:focus { border-color: var(--champagne); outline: none; }
+
+        .upload-area {
+            border: 2px dashed rgba(243, 229, 171, 0.3);
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .upload-area:hover { border-color: var(--champagne); background: rgba(243, 229, 171, 0.05); }
+
+        .submit-btn {
+            grid-column: 1 / span 2;
+            padding: 20px;
+            background: var(--champagne);
+            color: #000;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover { background: #fff; transform: translateY(-3px); }
+
+        @media (max-width: 768px) {
+            .application-form { grid-template-columns: 1fr; padding: 25px; }
+            .section-title, .submit-btn, .full-width { grid-column: 1; }
+        }
+
+ /* HERO SECTION */
+        .hero-member {
+            height: 90vh;
+            background: linear-gradient(rgba(15, 4, 18, 0.7), rgba(15, 4, 18, 0.9)), url('https://images.unsplash.com/photo-1519690831588-42c4fd2e825b?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .hero-member h1 { font-family: 'Playfair Display'; font-size: clamp(2.5rem, 6vw, 4rem); color: var(--champagne); margin-bottom: 20px; }
+        .hero-member p { max-width: 700px; font-size: 1.1rem; opacity: 0.8; margin-bottom: 30px; }
+
+        /* BENEFITS SECTION */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 80px 10%;
+            background: var(--royal-purple);
+        }
+
+        .benefit-card { text-align: center; padding: 30px; border: 1px solid rgba(243, 229, 171, 0.1); }
+        .benefit-card i { font-size: 2.5rem; color: var(--champagne); margin-bottom: 20px; }
+        .benefit-card h3 { color: var(--champagne); margin-bottom: 15px; }
+
+        /* FORM SECTION (HIDDEN BY DEFAULT) */
+        #application-section {
+            padding: 100px 10%;
+            display: none; /* Triggered by CTA */
+            animation: fadeIn 0.8s ease;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .application-form {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(35, 9, 46, 0.5);
+            padding: 50px;
+            border: 1px solid var(--champagne);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .full-width { grid-column: 1 / span 2; }
+        label { font-size: 0.75rem; color: var(--dusty-rose); text-transform: uppercase; margin-bottom: 5px; display: block; }
+        input, select, textarea { width: 100%; padding: 12px; background: #000; border: 1px solid #333; color: #fff; box-sizing: border-box; }
+
+        .btn-gold {
+            background: var(--champagne); color: #000; padding: 18px 40px;
+            text-decoration: none; font-weight: 700; letter-spacing: 2px;
+            text-transform: uppercase; border: none; cursor: pointer; transition: 0.3s;
+        }
+        .btn-gold:hover { background: #fff; transform: scale(1.05); }
+
+        @media (max-width: 768px) { .benefits-grid, .application-form { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">HSF</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="membership-gateway.html" style="color: var(--champagne);">Membership</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </nav>
+    <header class="hero-member">
+        <div style="border: 1px solid var(--champagne); padding: 5px 15px; font-size: 0.7rem; margin-bottom: 20px;">EXCLUSIVE COLLECTIVE</div>
+        <h1>Elevate Your <span style="color:var(--dusty-rose)">Career</span></h1>
+        <p>Join Mumbai's most prestigious network for <strong>male to female body massage</strong>. We provide a secure, high-income platform for professional therapists serving an elite clientele.</p>
+        <button class="btn-gold" onclick="showForm()"><a href="#application-section">Start Application</a></button>
+    </header>
+
+    <section class="benefits-grid">
+        <div class="benefit-card">
+            <i class="fas fa-gem"></i>
+            <h3>Elite Clientele</h3>
+            <p>Direct access to verified, high-net-worth female clients in Bandra, Juhu, and SoBo.</p>
+        </div>
+        <div class="benefit-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Total Discretion</h3>
+            <p>We manage all logistics and privacy, allowing you to focus purely on your professional craft.</p>
+        </div>
+        <div class="benefit-card">
+            <i class="fas fa-wallet"></i>
+            <h3>Premium Earnings</h3>
+            <p>Industry-leading rates for specialized <strong>full body massage in Mumbai</strong> services.</p>
+        </div>
+    </section>
+
+<section id="application-section">
+    <div class="page-header">
+        <h1>Therapist Collective</h1>
+        <p>Join the premier destination for <strong>male to female body massage in Mumbai</strong>.</p>
+    </div>
+
+    <form class="application-form" action="https://formspree.io/f/YOUR_ID" method="POST" enctype="multipart/form-data">
+        
+        <div class="section-title">I. Private Identity</div>
+        <div class="form-group">
+            <label>Legal Full Name</label>
+            <input type="text" name="legal_name" required>
+        </div>
+        <div class="form-group">
+            <label>Public Alias (Displayed to Clients)</label>
+            <input type="text" name="alias" placeholder="e.g., Aryan" required>
+        </div>
+        <div class="form-group">
+            <label>WhatsApp Number</label>
+            <input type="tel" name="phone" required>
+        </div>
+       <div class="form-group">
+    <label>Primary Location in Mumbai</label>
+    <select name="location" id="locationSelect" onchange="toggleOtherLocation()" required>
+        <option value="" disabled selected>Select your neighborhood</option>
+        <option value="Bandra">Bandra / Khar</option>
+        <option value="Juhu">Juhu / Vile Parle</option>
+        <option value="SoBo">South Mumbai (Colaba/Worli)</option>
+        <option value="Andheri">Andheri / Lokhandwala</option>
+        <option value="Powai">Powai / Hiranandani</option>
+        <option value="other">Other Location...</option>
+    </select>
+</div>
+
+<div class="form-group" id="otherLocationGroup" style="display: none;">
+    <label>Please Specify Neighborhood</label>
+    <input type="text" name="custom_location" id="customLocationInput" placeholder="Enter your specific area in Mumbai">
+</div>
+
+        <div class="section-title">II. Physical Attributes</div>
+        <div class="form-group">
+            <label>Age</label>
+            <input type="number" name="age" required>
+        </div>
+        <div class="form-group">
+            <label>Height (ft/in)</label>
+            <input type="text" name="height" placeholder="e.g., 6'1" required>
+        </div>
+        <div class="form-group">
+            <label>Languages Spoken</label>
+            <input type="text" name="languages" placeholder="e.g., English, Hindi, Marathi">
+        </div>
+        <div class="form-group">
+            <label>Physique Type</label>
+            <select name="physique">
+                <option>Athletic / Fit</option>
+                <option>Muscular</option>
+                <option>Lean</option>
+            </select>
+        </div>
+
+        <div class="section-title">III. Professional Profile</div>
+        <div class="form-group full-width">
+            <label>Experience in <strong>Body Massage Services for Females</strong></label>
+            <textarea name="experience" rows="3" placeholder="Tell us about your background..."></textarea>
+        </div>
+        <div class="form-group full-width">
+            <label>Public Bio (This will be shown on your profile)</label>
+            <textarea name="bio" rows="4" placeholder="Describe your style and how you ensure a luxury experience for female clients..."></textarea>
+        </div>
+
+        <div class="section-title">IV. Media Portfolio</div>
+        <div class="form-group full-width">
+            <p style="font-size: 0.7rem; color: var(--dusty-rose); margin-bottom: 10px;">Upload at least 2 clear photos (Headshot & Full Body). High-quality imagery increases client interest.</p>
+            <div class="upload-area" onclick="document.getElementById('file-upload').click()">
+                <i class="fas fa-camera" style="font-size: 1.5rem; color: var(--champagne); margin-bottom: 10px;"></i>
+                <p style="font-size: 0.8rem;">Click to Upload Photos</p>
+                <input type="file" id="file-upload" name="portfolio" multiple accept="image/*" style="display:none;">
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Elite Application</button>
+        
+        <p style="grid-column: 1 / span 2; text-align: center; font-size: 0.7rem; opacity: 0.5;">
+            By applying, you confirm you are 18+ and agree to maintain absolute discretion regarding all clients of Her Secret Fantasy Mumbai.
+        </p>
+    </form>
+</Section>
+
+<footer style="padding: 40px; text-align: center; opacity: 0.5; font-size: 0.8rem;">
+        &copy; 2026 HER SECRET FANTASY | MUMBAI | DISCREET PROFESSIONAL NETWORK
+    </footer>
+
+</body>
+<script>
+        function showForm() {
+            document.getElementById('application-section').style.display = 'block';
+            window.location.hash = 'application-section';
+        }
+
+        function toggleOther() {
+            const select = document.getElementById('locationSelect');
+            const otherDiv = document.getElementById('otherArea');
+            if(select.value === 'other') {
+                otherDiv.style.display = 'block';
+                document.getElementById('customInput').required = true;
+            } else {
+                otherDiv.style.display = 'none';
+                document.getElementById('customInput').required = false;
+            }
+        }
+    </script>
+
+<Script>
+function toggleOtherLocation() {
+    const selectBox = document.getElementById("locationSelect");
+    const otherGroup = document.getElementById("otherLocationGroup");
+    const otherInput = document.getElementById("customLocationInput");
+
+    if (selectBox.value === "other") {
+        otherGroup.style.display = "block";
+        otherInput.setAttribute("required", "true"); // Make it mandatory if visible
+        otherInput.focus();
+    } else {
+        otherGroup.style.display = "none";
+        otherInput.removeAttribute("required");
+        otherInput.value = ""; // Clear value if user changes mind
+    }
+}
+</script>
+
+
+</html>

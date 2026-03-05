@@ -1,0 +1,15 @@
+# Her Secret Fantasy - Robots.txt
+# Optimized for Discretion & Mumbai Local SEO
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /terms.html
+
+# Hide sensitive system folders or private assets
+Disallow: /private/
+Disallow: /temp/
+Disallow: /scripts/
+
+# Point to your sitemap (Replace with your actual domain)
+Sitemap: https://www.hersecretfantasy.com/sitemap.xml
